@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { Route, Switch } from 'react-router-dom';
 import type { Match } from 'react-router-dom';
-import store from './redux/store';
+import store from '../redux/store';
 import AsyncRoute from './AsyncRoute';
 import FourOhFour from './FourOhFour';
 import preload from '../../dist/data.json';
